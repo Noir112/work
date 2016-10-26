@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i', 'gulp' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData gulp
+8 silly fetchNamedPackageData gulp
+9 silly mapToRegistry name gulp
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/gulp
+13 verbose request uri https://registry.npmjs.org/gulp
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 17:49:48
+16 verbose request id 438e66998cbf95e3
+17 http request GET https://registry.npmjs.org/gulp
+18 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+19 info attempt registry request try #2 at 17:49:58
+20 http request GET https://registry.npmjs.org/gulp
+21 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+22 info attempt registry request try #3 at 17:50:58
+23 http request GET https://registry.npmjs.org/gulp
+24 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Parse Error
+24 silly fetchPackageMetaData     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/tunnel-agent/index.js:174:17)
+24 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+24 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+24 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+24 silly fetchPackageMetaData     at Socket.socketOnData (_http_client.js:316:9)
+24 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+24 silly fetchPackageMetaData     at Socket.emit (events.js:169:7)
+24 silly fetchPackageMetaData     at readableAddChunk (_stream_readable.js:146:16)
+24 silly fetchPackageMetaData     at Socket.Readable.push (_stream_readable.js:110:10)
+24 silly fetchPackageMetaData     at TCP.onread (net.js:523:20)
+24 silly fetchPackageMetaData  error for gulp { [Error: tunneling socket could not be established, cause=Parse Error] code: 'ECONNRESET' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Starting
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: tunneling socket could not be established, cause=Parse Error
+30 verbose stack     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/tunnel-agent/index.js:174:17)
+30 verbose stack     at ClientRequest.g (events.js:260:16)
+30 verbose stack     at emitOne (events.js:77:13)
+30 verbose stack     at ClientRequest.emit (events.js:169:7)
+30 verbose stack     at Socket.socketOnData (_http_client.js:316:9)
+30 verbose stack     at emitOne (events.js:77:13)
+30 verbose stack     at Socket.emit (events.js:169:7)
+30 verbose stack     at readableAddChunk (_stream_readable.js:146:16)
+30 verbose stack     at Socket.Readable.push (_stream_readable.js:110:10)
+30 verbose stack     at TCP.onread (net.js:523:20)
+31 verbose cwd /home/user/Документы/index
+32 error Linux 4.4.0-45-generic
+33 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "gulp"
+34 error node v5.0.0
+35 error npm  v3.3.6
+36 error code ECONNRESET
+37 error network tunneling socket could not be established, cause=Parse Error
+37 error network This is most likely not a problem with npm itself
+37 error network and is related to network connectivity.
+37 error network In most cases you are behind a proxy or have bad network settings.
+37 error network
+37 error network If you are behind a proxy, please make sure that the
+37 error network 'proxy' config is set properly.  See: 'npm help config'
+38 verbose exit [ 1, true ]

@@ -1,0 +1,22 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noir112/work.git"
+  },
+  "keywords": [
+    "work"
+  ],
+  "author": "Solodkiy Mihail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noir112/work/issues"
+  },
+  "homepage": "https://github.com/Noir112/work#readme"
+}
